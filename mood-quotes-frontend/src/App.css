@@ -1,0 +1,51 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background-image: url('https://i.pinimg.com/originals/54/81/60/548160f1a5aeefb120774429e6ab1781.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+input {
+  padding: 0.5rem;
+  width: 300px;
+  margin: 1rem;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffffcc;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  width: 100%;
+}
+
+li {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+}
